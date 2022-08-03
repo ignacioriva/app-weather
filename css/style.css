@@ -380,3 +380,14 @@
     	margin-top: 3rem;
    }
 }
+
+
+@media screen and (max-width: 321px) {
+	.main .right-container .container-week {
+		width: 80%;
+	}
+
+	.main .right-container .container-today {
+		width: 80%;
+	}
+}
