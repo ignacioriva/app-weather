@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather App</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	<main class="main">
+		
+		<div class="left-container">
+
+			<div class="nav-responsive" id="navResponsive">
+				<div class="div-close">
+					<button class="btn-close" id="btnClose">
+						<span class="material-icons">close
+						</span>
+					</button>
+				</div>
+				<div class="div-seach">
+					<input type="text" name="" placeholder="search for location" id="inputSeach">
+					<button class="btn-seach" type="submit" id="btnSeach">
+						<p>Seach</p>
+					</button>
+				</div>
+			</div>
+			
+			<nav class="nav-bar">
+				<input type="text" name="" placeholder="Seach for places">
+				<button class="btn-bar" id="btnNav">
+					<span class="material-icons">my_location</span>
+				</button>
+			</nav>
+
+			<div class="temperature-icon">
+				<img src="images/cloudy.png">
+			</div>
+
+
+			<div class="div-temperature-number">
+				<h1 id="tempNumber">15<span>°c</span></h1>
+			</div>
+
+
+			<div class="div-text">
+				<h2 id="wheatherDescription">Shower</h2>
+			</div>
+
+			<div class="div-info">
+				<p id="dateInfo">Today ' Fri, 5 jun</p>
+			</div>
+
+			<div class="div-location">
+				<p class="material-icons">location_on <span id="cityWheather">Helsinki</span></p>
+			</div>
+
+		</div>
+
+
+		<!-- Right container  -->
+
+
+		<div class="right-container">
+
+			<div class="right-nav">
+				<button class="btn-icon">
+					<p>°c</p>
+				</button>
+				<button class="btn-icon">
+					<p>°f</p>
+				</button>
+			</div>
+
+			<div class="container-week">
+				<div class="div">
+					<p>Tomorrow</p>
+					<img src="images/Clear.png">
+					<span>16°c</span><span>11°c</span>
+				</div>
+				<div class="div">
+					<p>Thu Aug, 4</p>
+					<img src="images/Clear.png">
+					<span>16°c</span><span>11°c</span>
+				</div>
+				<div class="div">
+					<p>Fri Aug, 5</p>
+					<img src="images/Clear.png">
+					<span>16°c</span><span>11°c</span>
+				</div>
+				<div class="div">
+					<p>Sat Aug, 6</p>
+					<img src="images/Clear.png">
+					<span>16°c</span><span>11°c</span>
+				</div>
+				<div class="div">
+					<p>Sun Aug, 7</p>
+					<img src="images/Clear.png">
+					<span>16°c</span><span>11°c</span>
+				</div>
+			</div>
+
+			<div class="container-today">
+				<div class="div-content">
+					<h3>Today's Hightlights</h3>
+				</div>
+
+				<div class="div-box">
+					<div class="box-dad">
+						<p>Wind status</p>
+						<h1 id="windNumber">4mph</h1>
+					</div>
+					<div class="box-dad box-2">
+						<p>Humidity</p>
+						<h1 id="humidityPorcent">80%</h1>
+					</div>
+
+					<div class="box-children">
+						<p>Visibility</p>
+						<h1 id="visibilityNumber">10000miles</h1>
+					</div>
+
+					<div class="box-children box-4">
+						<p>Air Pressure</p>
+						<h1 id="airPressureNumber">1014mb</h1>
+					</div>
+				</div>
+			</div>
+
+
+			<footer class="footer">
+				<p>created by <a href="https://github.com/ignacioriva">Ignacio Riva</a></p>
+			</footer>
+
+
+		</div>
+
+	</main>
+
+
+
+
+	<script src="js/index.js"></script>
+
+</body>
+</html>
