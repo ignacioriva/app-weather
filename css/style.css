@@ -106,9 +106,12 @@
 	align-items: center;
 }
 
-.main .left-container .nav-bar input {
-	padding: 0.5rem;
+.main .left-container .nav-bar .btn {
+	padding: 0.5rem 1.2rem;
 	background: #6e707a;
+	color: white;
+	cursor: pointer;
+	border: none;
 }
 
 .main .left-container .nav-bar .btn-bar {
