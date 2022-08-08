@@ -128,13 +128,15 @@
 }
 
 .main .left-container .temperature-icon {
+	width: 100%;
 	min-height: 35vh;
 	text-align: center;
+	overflow-x: hidden;
 }
 
 .main .left-container .temperature-icon img {
-	width: 35%;
-	margin: 2rem 0;
+	width: 60%;
+	object-fit: cover;
 }
 
 .main .left-container .div-temperature-number {
